@@ -1,0 +1,98 @@
+.nav-level1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.nav-logo img:last-child {
+  margin-top: 3px;
+}
+
+.nav-actions-user a {
+  text-decoration: none;
+  color: #000;
+  white-space: nowrap;
+}
+
+.nav-actions {
+  display: flex;
+}
+
+.nav-level2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-level2 a {
+  display: block;
+  text-decoration: none;
+  height: 30px;
+  min-width: 106px;
+  background: #F2F2F2;
+  border-radius: 12px;
+  border: 1px solid black;
+  white-space: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.education {
+  margin: 66px auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.education-info {
+  max-width: 800px;
+  max-height: 496px;
+  background: url(/img/education/ed_back.png) 0 0/cover no-repeat;
+  padding: 40px;
+}
+
+.education-info h1 {
+  max-width: 656px;
+  font-family: Inter;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+.education-info__descr {
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.education-vote {
+  height: 496px;
+  width: 384px;
+  background-color: black;
+  margin-left: 32px;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/Inter-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, serif;
+}
+
+.container {
+  max-width: 1216px;
+  margin: 0 auto;
+}
+
+.red {
+  color: red;
+}

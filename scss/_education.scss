@@ -1,0 +1,38 @@
+
+  .education {
+    margin: 66px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  
+  .education-info {
+    max-width: 800px;
+    max-height: 496px;
+    background: url(/img/education/ed_back.png) 0 0 / cover no-repeat;
+    padding: 40px;  
+  }
+  
+  .education-info h1 {
+    max-width: 656px;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    
+  
+  }
+  
+  .education-info__descr {
+    font-size: 22px;
+    line-height: 40px; 
+  }
+  
+  .education-vote {
+    height: 496px;
+    width: 384px;
+    background-color: black;
+    margin-left: 32px;
+  }
+  
